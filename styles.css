@@ -12,3 +12,14 @@ body{
     color: white;
     text-decoration: none;
 }
+
+.text-platzi{
+    color: #0ae98a;
+    font-weight: 700;
+    text-shadow: 0px 0px 3px #6BF8BD;
+}
+
+.text-platzi:hover{
+    color:#1E2229;
+    text-shadow: 0px 0px 3px #6BF8BD;
+}

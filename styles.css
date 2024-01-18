@@ -44,3 +44,7 @@ body{
     z-index: 1;
     color: white;
 }
+
+#carousel .overlay .container, #carousel .overlay .container .row{
+    height: 100%;
+}

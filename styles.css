@@ -48,3 +48,14 @@ body{
 #carousel .overlay .container, #carousel .overlay .container .row{
     height: 100%;
 }
+
+.btn-platzi{
+    background: #0ae98a;
+    color: black;
+    font-weight: 500;
+}
+
+.btn-platzi:hover{
+    background: #08BD70;
+ 
+}

@@ -59,3 +59,19 @@ body{
     background: #08BD70;
  
 }
+
+.place-time__title{
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.text-medium{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.place-time__date{
+    color: #7e00ff;
+    -webkit-text-stroke: 1px #5300A7;
+}

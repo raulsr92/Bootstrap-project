@@ -67,11 +67,36 @@ body{
 }
 
 .text-medium{
-    font-size: 25px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.text-small{
+    font-size: 16px;
     font-weight: 700;
 }
 
 .place-time__date{
     color: #7e00ff;
     -webkit-text-stroke: 1px #5300A7;
+    text-shadow: 1px 1px 10px #5300A7;
+}
+
+.place-time__btn{
+    background-color: #7e00ff;
+    border: 4px solid #212529;
+    border-radius: 0;
+}
+
+.place-time__btn:hover{
+    background-color: #212529;
+    border: 4px solid white;
+}
+
+.place-time__photo{
+    object-fit: cover;
+}
+
+.place-time__photo-container{
+    display: flex;
 }

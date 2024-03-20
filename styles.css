@@ -66,9 +66,18 @@ body{
     font-weight: 900;
 }
 
+.text-large{
+    font-size: 45px;
+    font-weight: 800;
+}
+
 .text-medium{
     font-size: 28px;
     font-weight: 800;
+}
+
+.text-small-light{
+    font-size: 18px;
 }
 
 .text-small{

@@ -222,31 +222,37 @@
 
     <!-- Inicio Suscripción a contenido -->
 
-    <section id="subscribe-media" class="bg-dark text-light">
+    <section id="subscribe-media" class="bg-dark text-light ">
       <div class="container  d-flex flex-column">
 
         <div class="row">
-          <div class="col"> 
-            <h2 class="text-large">Todas las noticias de Maluma</h2>
+          <div class="col-md-3"> 
+            <h2 class="text-large subscribe-media__titulo">Todas las noticias de Maluma</h2>
           </div>
-          <div class="col"> 
-          </div>
-          <div class="col"> 
-          </div>
-          <div class="col"> 
-          </div>
+
         </div>
 
         <div class="row">
-          <div class="col"> 
-            <p class="text-small-light">Suscríbete al boletín exclusivo del Pretty Boy y recibe todas las noticias de Maluma en tu email.</p>
+          <div class="col-md-5"> 
+            <p class="text-small-light subscribe-media__parrafo">Suscríbete al boletín exclusivo del Pretty Boy y recibe todas las noticias de Maluma en tu email.</p>
           </div>
-          <div class="col"> 
-          </div>
-
         </div>
 
-        
+        <div class="row subscribe-media__formulario" >
+          <div class="col-md-3">
+            <label for="inputName" class="form-label text-small ">NOMBRE</label>
+            <input type="text" class="form-control" placeholder="Tu nombre aquí" aria-label="First name" id="inputName">
+          </div>
+          <div class="col-md-3">
+            <label for="inputEmail" class="form-label text-small">CORREO</label>
+            <input type="text" class="form-control" placeholder="Tu correo aquí" aria-label="Last name" id="inputEmail">
+          </div>
+          <div class="col-12 ">
+            <button type="submit" class="btn btn-primary place-time__btn formulario__btn text-small2 text-uppercase">Suscríbete</button>
+          </div>
+        </div>
+
+                
       </div>
     </section>
 

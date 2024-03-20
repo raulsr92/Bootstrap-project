@@ -85,6 +85,11 @@ body{
     font-weight: 700;
 }
 
+.text-small2{
+    font-size: 20px;
+    font-weight: 800;
+}
+
 .place-time__date{
     color: #7e00ff;
     -webkit-text-stroke: 1px #5300A7;
@@ -108,4 +113,34 @@ body{
 
 .place-time__photo-container{
     display: flex;
+}
+
+#subscribe-media{
+    padding: 120px 0px;
+}
+
+/* Estilos en el formulario*/
+
+input[type="text"]::placeholder{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 500;
+    color: #cccccc;
+}
+
+input[type="text"]:focus{
+    outline: 4px solid #7e00ff;
+}
+
+.formulario__btn{
+    padding: 10px 40px;
+    margin-top: 20px;
+}
+
+.subscribe-media__parrafo{
+    margin-top: 12px;
+}
+
+.subscribe-media__formulario{
+    margin-top: 12px;
 }

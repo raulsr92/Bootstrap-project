@@ -35,6 +35,12 @@ body{
     position: relative;
 }
 
+.carousel-span{
+    color: #7e00ff;
+    font-weight: 900;
+    font-size: 20px;
+}
+
 #carousel .overlay{
     position: absolute;
     top: 0;
@@ -51,14 +57,20 @@ body{
 }
 
 .btn-platzi{
-    background: #0ae98a;
-    color: black;
+    background: #7e00ff;
+    color: white;
     font-weight: 500;
+    border-color: #7e00ff;
+    border-radius: 0;
+
 }
 
 .btn-platzi:hover{
-    background: #08BD70;
- 
+    background-color: white;
+    border-color: #7e00ff;
+    color:#7e00ff;
+    font-weight: 500;
+
 }
 
 .place-time__title{

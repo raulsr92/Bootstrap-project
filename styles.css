@@ -14,14 +14,15 @@ body{
 }
 
 .text-platzi{
-    color: #0ae98a;
+    color: white;
     font-weight: 700;
-    text-shadow: 0px 0px 3px #6BF8BD;
+    text-shadow: 2px 2px 6px #7e00ff;
+    text-transform: uppercase;
 }
 
 .text-platzi:hover{
-    color:#1E2229;
-    text-shadow: 0px 0px 3px #6BF8BD;
+    color: white;
+    text-shadow: 2px 2px 6px #93781C;
 }
 
 #main .carousel-inner img{
@@ -148,5 +149,7 @@ input[type="text"]:focus, textarea:focus{
 .tooltip-inner { 
     background-color: #7e00ff; 
 }
+
+
 
 

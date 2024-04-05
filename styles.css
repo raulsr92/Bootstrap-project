@@ -144,3 +144,9 @@ input[type="text"]:focus, textarea:focus{
 .subscribe-media__formulario{
     margin-top: 12px;
 }
+
+.tooltip-inner { 
+    background-color: #7e00ff; 
+}
+
+

@@ -216,3 +216,20 @@ input[type="text"]:focus, textarea:focus{
 .text-rights__message{
     color: #707070;
 }
+
+/* Estilos en cards*/
+
+.card{
+    border-radius: 0;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+.badges-left{
+    background: #7e00ff!important;
+    color: white!important;
+}
+
+.badges-right{
+    color: #7e00ff!important;
+    background: white!important;
+}

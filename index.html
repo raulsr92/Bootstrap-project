@@ -12,7 +12,7 @@
 
     <!-- Inicio Header -->
 
-    <nav class="navbar navbar-expand-lg bg-black">
+    <nav id="navbar-maluma" class="navbar navbar-expand-lg bg-black navbar-maluma">
         <div class="container ">
           <a class="navbar-brand" href="#">
             <img src="./img/maluma-logo-removebg-preview.png" alt="logo-platzi" style="width: 150px;">
@@ -23,19 +23,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0 mb-2 ms-auto ">
               <li class="nav-item">
-                <a class="nav-link active text-light text-uppercase" aria-current="page" href="#">Conciertos</a>
+                <a class="nav-link active text-light text-uppercase" aria-current="page" href="#scroll-conciertos">Conciertos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light text-uppercase" href="#">Discografía</a>
+                <a class="nav-link text-light text-uppercase" href="#scroll-albumes">Discografía</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light text-uppercase" href="#">Media</a>
+                <a class="nav-link text-light text-uppercase" href="#scroll-media">Media</a>
               </li>
+              <!--<li class="nav-item">
+                <a class="nav-link text-light text-uppercase" href="#scroll-meet">Meet & Greet</a>
+              </li>-->
               <li class="nav-item">
-                <a class="nav-link text-light text-uppercase" href="#">Meet & Greet</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-platzi" href="#">Compra tus Tickets</a>
+                <a class="nav-link text-platzi" href="#scroll-ticket">Compra tus Tickets</a>
               </li>
               <!--<li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -59,13 +59,13 @@
           </div>
         </div>
     </nav>
-
     <!-- Fin Header -->
 
+    <div data-bs-spy="scroll" data-bs-target="#navbar-maluma" tabindex="0">
     <!-- Inicio Main -->
     <main id="main">
       <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
-        <div class="carousel-inner">
+        <div class="carousel-inner" id="scroll-conciertos">
           <div class="carousel-item active">
             <img src="./img/maluma1-cortada.png" class="d-block w-100" alt="foto_de_Hawaii-1">
           </div>
@@ -116,11 +116,11 @@
     <!-- Inicio Albumes -->
 
     <section id="speakers" class="pt-4 pb-4 bg-dark">
-      <div class="container">
+      <div id="scroll-albumes" class="container">
         <div class="row">
-          <div class="col text-center text-uppercase text-light">
+          <div  class="col text-center text-uppercase text-light">
             <small>Conoce a los</small>
-            <h2>ALBUMES</h2>
+            <h2 >ALBUMES</h2>
           </div>
         </div>
 
@@ -204,7 +204,7 @@
           </div>
 
           <div class="col-12 col-lg-6 bg-dark text-light ps-4 d-flex flex-column align-items-center justify-content-center pb-2">
-            <h2 class="place-time__title mt-4 mb-3 text-center">PRÓXIMO CONCIERTO</h2>
+            <h2 id="scroll-ticket" class="place-time__title mt-4 mb-3 text-center">PRÓXIMO CONCIERTO</h2>
             <p class="text-medium place-time__date"> 25/05/2024</p>
             <p class="text-medium place-time__city">Canadá - Montreal</p>
             <p class="place-time__place">Parc Olympique, Montreal, <abbr title="the Canadian province of Quebec" data-bs-toggle="tooltip" data-bs-placement="top" >QC</abbr></p>
@@ -221,7 +221,7 @@
     <!-- Inicio Suscripción a contenido - FORMULARIO-->
 
     <section id="subscribe-media" class="bg-dark text-light ">
-      <div class="container  d-flex flex-column">
+      <div class="container  d-flex flex-column" id="scroll-media">
         <div class="row justify-content-center justify-content-md-start">
           <div class="col-11 col-md-3"> 
             <h2 class="text-large subscribe-media__titulo">Todas las noticias de Maluma</h2>
@@ -256,9 +256,9 @@
       </div>
     </section>
 
-
     <!-- Fin Suscripción a contenido -->
 
+    </div>
 
     <!-- Inicio Footer -->
 
@@ -324,6 +324,7 @@
     </footer>
 
     <!-- Fin Footer -->
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="./index.js"></script>

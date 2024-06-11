@@ -233,3 +233,20 @@ input[type="text"]:focus, textarea:focus{
     color: #7e00ff!important;
     background: white!important;
 }
+
+/* Estilos en navbar para SCROLLSPY*/
+
+
+.navbar-maluma{
+    position: sticky!important;
+    top: 0!important;
+    z-index: 100!important;
+}
+
+.active{
+    background-color:#7e00ff!important ;
+    border-radius: 5px!important;
+    color: white!important;
+    font-weight: 700;
+
+}

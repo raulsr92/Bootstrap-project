@@ -27,7 +27,7 @@ body{
     text-shadow: 2px 2px 6px #93781C;
 }
 
-#main .carousel-inner img{
+#main .carousel-inner .carousel-item img{
     max-height: 70vh;
     object-fit: cover;
     filter: grayscale(0.7);
@@ -247,6 +247,31 @@ input[type="text"]:focus, textarea:focus{
     background-color:#7e00ff!important ;
     border-radius: 5px!important;
     color: white!important;
-    font-weight: 700;
-
 }
+
+.navbar-nav{
+    display: flex;
+    column-gap: 12px;
+}
+
+
+/*Media queries */
+
+@media screen and (max-width: 416px){
+    .icons-container-inner{
+        column-gap: 10px;
+    }
+    .icons-container__unit{
+        width: 30px;
+        height: 30px;
+    }
+    .icons-container__unit a{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+    #spotify{
+        font-size: 20px;
+    }
+}
+
